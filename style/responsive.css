@@ -1,0 +1,31 @@
+@media screen and (max-width:835px) {
+    header .container {
+        font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-decoration: none;
+    }
+    header nav .nav-buttons {
+        text-decoration: none;
+    }
+    header .logo {
+        margin-top: 15px;
+        margin-left: 0px;
+        text-transform: uppercase;
+        color: var(--salmon);
+        font-size: 40px;
+    }
+    .main-movie {
+        font-size: 15px;
+        background-image: url('/NETFLIX-replica/res/bg-titane2.jpg');
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+}

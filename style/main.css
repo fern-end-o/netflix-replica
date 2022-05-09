@@ -1,0 +1,135 @@
+:root {
+    --salmon: #FF4C29;
+    --navy: #082032;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/*Basic page elements*/
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Regular.woff2') format('woff2'), url('BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: var(--navy);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .logo {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--salmon);
+    font-size: 40px;
+}
+
+header .nav-buttons a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 1s ease all;
+}
+
+header .nav-buttons a:hover {
+    text-decoration: none;
+    color: rgb(149, 149, 149);
+}
+
+header .container {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    margin-right: 25px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+/*Main movie*/
+
+.main-movie {
+    font-family: 'Bebas Neue';
+    font-size: 15px;
+    background-image: url('/NETFLIX-replica/res/bg-titane2.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filter {
+    background: linear-gradient(white 50%, black 50%);
+}
+
+.main-movie .main-movie-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.title-main-movie {
+    margin-top: 20%;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.buttons {
+    margin-left: 20px;
+}
+
+.button {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .50);
+    margin-right: 20px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, .50);
+    color: black;
+}
+
+.movie-box {
+    cursor: pointer;
+    size: 1000px 500px;
+    display: block;
+}
+
+.movie-box:hover {
+    background-color: rgba(0, 0, 0, 0.816);
+}
+
+.carousel-title {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.movie-carousel {
+    margin-top: 15px;
+}
